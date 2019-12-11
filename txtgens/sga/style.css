@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'SGA Rounded';
+  src: url('SGA.ttf');
+}
+
+.sga-round {
+  font-family: 'SGA Rounded';
+  /* font-size: 26px; */
+}

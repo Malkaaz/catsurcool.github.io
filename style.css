@@ -1,0 +1,14 @@
+.best-regards {
+  font-family: 'Mali', cursive;
+}
+
+.main-div {
+  border: 1px solid #656565;
+	border-radius: 15px;
+	background: #191919;
+  padding: 5px;
+}
+
+#stuff {
+  display: block;
+}
