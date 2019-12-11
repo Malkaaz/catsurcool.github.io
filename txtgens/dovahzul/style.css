@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Dragon';
-  src: url('/txtgens/dovahzul/Dovahzul.ttf');
+  src: url('/txtgens/dovahzul/Dovahzul.ttf') format('tff');
 }
 
 .dragon {
