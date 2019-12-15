@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Dragon';
-  src: url('../fonts/Dovahzul.ttf');
+  src: url('/fonts/Dovahzul.ttf');
 }
 
 .dragon {
   font-family: 'Dragon';
-  font-size: 26px;
+  font-size: 30px; /*26*/
 }
 
 #ta2 {
