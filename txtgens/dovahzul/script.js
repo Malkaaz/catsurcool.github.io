@@ -28,12 +28,6 @@ function show1() {
   document.getElementById('display1').onclick = hide1;
 }
 
-function show2() {
-  document.getElementById('other-chars').style.display = 'block';
-  document.getElementById('display2').innerHTML = 'Hide';
-  document.getElementById('display2').onclick = hide2;
-}
-
 function hide1() {
   document.getElementById('alphabet').style.display = 'none';
   document.getElementById('display1').innerHTML = 'Show';
@@ -44,4 +38,10 @@ function hide2() {
   document.getElementById('other-chars').style.display = 'none';
   document.getElementById('display2').innerHTML = 'Show';
   document.getElementById('display2').onclick = show2;
+}
+
+function show2() {
+  document.getElementById('other-chars').style.display = 'block';
+  document.getElementById('display2').innerHTML = 'Hide';
+  document.getElementById('display2').onclick = hide2;
 }
