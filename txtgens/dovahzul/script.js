@@ -21,3 +21,27 @@ function catchText() {
   ta2.value = ta2.value.toLowerCase().replace(/o'o/g, 8);
   ta2.value = ta2.value.toLowerCase().replace(/u'u/g, 5);
 }
+
+function show1() {
+  document.getElementById('alphabet').style.display = 'block';
+  document.getElementById('display1').innerHTML = 'Hide';
+  document.getElementById('display1').onclick = hide1;
+}
+
+function show2() {
+  document.getElementById('other-chars').style.display = 'block';
+  document.getElementById('display2').innerHTML = 'Hide';
+  document.getElementById('display2').onclick = hide2;
+}
+
+function hide1() {
+  document.getElementById('alphabet').style.display = 'none';
+  document.getElementById('display1').innerHTML = 'Show';
+  document.getElementById('display1').onclick = show1;
+}
+
+function hide2() {
+  document.getElementById('other-chars').style.display = 'none';
+  document.getElementById('display2').innerHTML = 'Show';
+  document.getElementById('display2').onclick = show2;
+}
