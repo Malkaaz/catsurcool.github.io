@@ -26,6 +26,6 @@
 	line-height: 1;
 }
 
-#alphabet, #other-chars {
+#hide1, #hide2 {
   display: none;
 }
