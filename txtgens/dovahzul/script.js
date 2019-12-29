@@ -23,7 +23,7 @@ function catchText() {
 }
 
 function show1() {
-  document.getElementById('hide1').forEach(function(element){
+  document.querySelectorAll('#hide1').forEach(function(element){
     element.style.display = 'block';
   });
   document.getElementById('display1').innerHTML = 'Hide';
@@ -31,19 +31,25 @@ function show1() {
 }
 
 function hide1() {
-  document.getElementById('hide1').style.display = 'none';
+  document.querySelectorAll('#hide1').forEach(function(element){
+    element.style.display = 'none';
+  });
   document.getElementById('display1').innerHTML = 'Show';
   document.getElementById('display1').onclick = show1;
 }
 
 function hide2() {
-  document.getElementById('hide2').style.display = 'none';
+  document.querySelectorAll('#hide2').forEach(function(element){
+    element.style.display = 'none';
+  });
   document.getElementById('display2').innerHTML = 'Show';
   document.getElementById('display2').onclick = show2;
 }
 
 function show2() {
-  document.getElementById('hide2').style.display = 'block';
+  document.querySelectorAll('#hide2').forEach(function(element){
+    element.style.display = 'block';
+  });
   document.getElementById('display2').innerHTML = 'Hide';
   document.getElementById('display2').onclick = hide2;
 }
