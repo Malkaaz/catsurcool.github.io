@@ -23,7 +23,9 @@ function catchText() {
 }
 
 function show1() {
-  document.getElementById('hide1').style.display = 'block';
+  for (var i = 0; i < hide1.length; i++) {
+    document.getElementById('hide1').style.display = 'block';
+  }
   document.getElementById('display1').innerHTML = 'Hide';
   document.getElementById('display1').onclick = hide1;
 }
