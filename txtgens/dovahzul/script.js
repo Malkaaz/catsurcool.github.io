@@ -23,9 +23,9 @@ function catchText() {
 }
 
 function show1() {
-  for (var i = 0; i < hide1.length; i++) {
-    document.getElementById('hide1').style.display = 'block';
-  }
+  document.getElementById('hide1').forEach(function(element){
+    element.style.display = 'block';
+  })
   document.getElementById('display1').innerHTML = 'Hide';
   document.getElementById('display1').onclick = hide1;
 }
