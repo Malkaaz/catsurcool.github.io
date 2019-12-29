@@ -25,7 +25,7 @@ function catchText() {
 function show1() {
   document.getElementById('hide1').forEach(function(element){
     element.style.display = 'block';
-  })
+  });
   document.getElementById('display1').innerHTML = 'Hide';
   document.getElementById('display1').onclick = hide1;
 }
