@@ -7,7 +7,6 @@ button {
 }
 
 textarea {
-	font-family: 'minecraftia';
 	font-size: 15px;
 	background-color: #191919;
 	color: #fff;
@@ -20,8 +19,8 @@ textarea {
 	width: 50vw;
 }
 
-.clrTxt {
-	/* Gradient add 6.25 */
+/* .clrTxt {
+	Gradient add 6.25
   background: linear-gradient(to right, #ff5555 12.50%, #ffaa00 18.75%, #ffff55 25%, #55ff55 37.50%, #55ffff 43.75%, #00aaaa 50%, #0000aa 56.25%, #5555ff 62.50%, #ff55ff 68.75%, #ffffff 81.25%, #aaaaaa 87.50%, #000000 100%);
 
   -webkit-background-clip: text;
@@ -30,7 +29,7 @@ textarea {
 
 .descTxt {
 	border-bottom: 2px solid #ffffff;
-}
+} */
 
 select {
 	background-color: #191919;
