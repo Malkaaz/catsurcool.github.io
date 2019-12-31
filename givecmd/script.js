@@ -7,6 +7,10 @@ var enchTF
 var enchLevel
 var fullCmd
 
+function value() {
+	console.log(clrSlct);
+}
+
 // Copy text
 function copy(txt) {
   // var txt = document.getElementById('fullCmd');
@@ -157,7 +161,6 @@ function cmd() {
 	enchLevel = document.getElementById('enchLevel').value;
 
 	var clrSlct = document.getElementById('clr').value;
-	var slctFirstCld = document.querySelector('select:first-child');
 
   // If there are no enchantments
 	if (ench === '') {
