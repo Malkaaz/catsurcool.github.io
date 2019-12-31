@@ -160,31 +160,31 @@ function cmd() {
 	var slctFirstCld = document.querySelector('select:first-child');
 
   // If there are no enchantments
-	if (ench == '') {
+	if (ench === '') {
 		enchTF = false;
 	} else {
 		enchTF = true;
 	}
 
   // If there is no lore
-	if (lore == '') {
+	if (lore === '') {
 		loreTF = false
 	} else {
 		loreTF = true
 	}
 
   // If no item picked
-	if (item == '') {
+	if (item === '') {
 		item = 'diamond_sword';
 	}
 
   // If no amount
-	if (amnt == '') {
+	if (amnt === '') {
 		amnt = 1;
 	}
 
   // If no given name
-	if (name == '') {
+	if (name === '') {
 		name = 'Diamond Sword';
 	}
 
