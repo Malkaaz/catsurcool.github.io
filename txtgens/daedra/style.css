@@ -23,9 +23,9 @@
   border-bottom: none;
   width: 5vw;
   font-size: 16px;
-	line-height: 1;
+  line-height: 1;
 }
 
-#hide1, #hide2 {
+#hide, #hide {
   display: none;
 }
