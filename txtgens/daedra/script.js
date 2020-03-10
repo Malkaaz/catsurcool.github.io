@@ -1,15 +1,10 @@
 var ta1 = document.getElementById('ta1');
 var ta2 = document.getElementById('ta2');
 
-ta1.addEventListener('keyup', catchText1);
-ta2.addEventListener('keyup', catchText2);
+ta1.addEventListener('keyup', catchText);
 
-function catchText1() {
+function catchText() {
   ta2.value = ta1.value;
-}
-
-function catchText2() {
-  ta1.value = ta2.value;
 }
 
 function show() {
