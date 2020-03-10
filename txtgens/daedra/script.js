@@ -11,14 +11,14 @@ function show() {
   document.querySelectorAll('#hide').forEach(function(element){
     element.style.display = 'block';
   });
-  document.getElementById('display1').innerHTML = 'Hide';
-  document.getElementById('display1').onclick = hide;
+  document.getElementById('display').innerHTML = 'Hide';
+  document.getElementById('display').onclick = hide;
 }
 
 function hide() {
   document.querySelectorAll('#hide').forEach(function(element){
     element.style.display = 'none';
   });
-  document.getElementById('display1').innerHTML = 'Show';
-  document.getElementById('display1').onclick = show;
+  document.getElementById('display').innerHTML = 'Show';
+  document.getElementById('display').onclick = show;
 }
