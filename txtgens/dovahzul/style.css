@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'Daedric';
-  src: url('/fonts/Daedra.otf');
+  font-family: 'Dragon';
+  src: url('/fonts/Dovahzul.ttf');
 }
 
-.daedra {
-  font-family: 'Daedric';
+.dragon {
+  font-family: 'Dragon';
 }
 
 #ta2 {
-  font-family: 'Daedric';
+  font-family: 'Dragon';
   font-size: 26px;
 }
 
