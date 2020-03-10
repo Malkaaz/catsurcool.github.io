@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Daedric Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="/mainstyle/dark/style.css" rel="stylesheet" type="text/css" />
 
+    <script src='/csi.min.js'></script>
+
+    <!-- Embed(s) -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id='main-header'>Daedric Translator</h1>
+    <br>
+
+    <div data-include='/nav-bar.html'></div>
+
+    <p>Created by <a href='https://youtube.com/Catsurcool' target='_blank'>Cats_ur_cool</a></p>
+
+    <p>Dragon Alphabet</p>
+
+    <button onclick='show1()' id='display1' class='btn'>Show</button>
+
+    <br id='hide1'>
+    <br id='hide1'>
+
+    <div id='hide1'>
+      <table>
+        <tr>
+          <th>Normal</th>
+          <th>Daedric</th>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td class='daedra'>A</td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td class='daedra'>B</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td class='daedra'>C</td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td class='daedra'>D</td>
+        </tr>
+        <tr>
+          <td>E</td>
+          <td class='daedra'>E</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td class='daedra'>F</td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td class='daedra'>G</td>
+        </tr>
+        <tr>
+          <td>H</td>
+          <td class='daedra'>H</td>
+        </tr>
+        <tr>
+          <td>I</td>
+          <td class='daedra'>I</td>
+        </tr>
+        <tr>
+          <td>J</td>
+          <td class='daedra'>J</td>
+        </tr>
+        <tr>
+          <td>K</td>
+          <td class='daedra'>K</td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td class='daedra'>L</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td class='daedra'>M</td>
+        </tr>
+        <tr>
+          <td>N</td>
+          <td class='daedra'>N</td>
+        </tr>
+        <tr>
+          <td>O</td>
+          <td class='daedra'>O</td>
+        </tr>
+        <tr>
+          <td>P</td>
+          <td class='daedra'>P</td>
+        </tr>
+        <tr>
+          <td>Q</td>
+          <td class='daedra'>Q</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td class='daedra'>R</td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td class='daedra'>S</td>
+        </tr>
+        <tr>
+          <td>T</td>
+          <td class='daedra'>T</td>
+        </tr>
+        <tr>
+          <td>U</td>
+          <td class='daedra'>U</td>
+        </tr>
+        <tr>
+          <td>V</td>
+          <td class='daedra'>V</td>
+        </tr>
+        <tr>
+          <td>W</td>
+          <td class='daedra'>W</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td class='daedra'>X</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td class='daedra'>Y</td>
+        </tr>
+        <tr>
+          <td>Z</td>
+          <td class='daedra'>Z</td>
+        </tr>
+      </table>
+    </div>
+
+    <p>Other characters and their combinations</p>
+
+    <button onclick='show2()' id='display2' class='btn'>Show</button>
+
+    <br id='hide2'>
+    <br id='hide2'>
+
+    <div id='hide2'>
+      <table>
+        <tr>
+          <th>English</th>
+          <th>Dragon</th>
+        </tr>
+        <tr>
+          <td>aa</td>
+          <td class='daedra'>1</td>
+        </tr>
+        <tr>
+          <td>ii</td>
+          <td class='daedra'>3</td>
+        </tr>
+        <tr>
+          <td>oo</td>
+          <td class='daedra'>8</td>
+        </tr>
+        <tr>
+          <td>uu</td>
+          <td class='daedra'>5</td>
+        </tr>
+        <tr>
+          <td>ah</td>
+          <td class='daedra'>4</td>
+        </tr>
+        <tr>
+          <td>ei</td>
+          <td class='daedra'>2</td>
+        </tr>
+        <tr>
+          <td>ey</td>
+          <td class='daedra'>9</td>
+        </tr>
+        <tr>
+          <td>ir</td>
+          <td class='daedra'>7</td>
+        </tr>
+        <tr>
+          <td>ur</td>
+          <td class='daedra'>6</td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <div>
+        <p>Normal Text</p>
+      </div>
+
+      <textarea rows="8" cols="80" id='ta1' placeholder="Type text here..." style='margin-top: -20px;' spellcheck='false'></textarea>
+    </div>
+
+    <div>
+      <div>
+        <p>Daedric Text</p>
+      </div>
+
+      <textarea rows="7" cols="80" id='ta2' class='dragon' placeholder="Daedra text is placed here" style='margin-top: -20px;' speelcheck='false'y></textarea>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
