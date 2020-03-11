@@ -14,7 +14,7 @@ var dovahWords = [
 ]
 
 function toE() {
-  var words = ta2.value.split(' ');
+  var words = ta2.value.split('');
   console.log(words);
   words.forEach(
     function (element) {
