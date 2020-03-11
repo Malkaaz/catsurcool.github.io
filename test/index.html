@@ -11,12 +11,16 @@
     <!-- Main Header -->
     <h1 id='main-header'>Dovahzul Translator [Testing]</h1>
     <br>
-	<div>
+	  <div>
       <div>
         <p>Normal Text</p>
       </div>
-
-      <textarea rows="8" cols="80" id='ta1' placeholder="Text to translate into Dovahzul" style='margin-top: -20px;'></textarea>
+      <div id='ta1space'>
+        <textarea rows="8" cols="80" id='ta1' placeholder="Text to translate into Dovahzul" style='margin-top: -20px;'></textarea>
+      </div>
+      <br>
+      <br>
+      <button class='btn' onclick='toD()'>To Dovah</button>
     </div>
 
     <br>
@@ -25,14 +29,13 @@
       <div>
         <p>Dragon Text</p>
       </div>
-
-      <textarea rows="8" cols="80" id='ta2' class='dragon' placeholder="Text to translate into English" style='margin-top: -20px;' spellcheck='false'></textarea>
-
-	  <br>
-	  <br>
-
-	  <button class='btn' onclick='toE()'>To English</button>
-    <!-- <button class='btn' onclick='test()'>Test</button> -->
+      <div class='ta2space'>
+        <textarea rows="8" cols="80" id='ta2' class='dragon' placeholder="Text to translate into English" style='margin-top: -20px;' spellcheck='false'></textarea>
+      </div>
+      <br>
+      <br>
+      <button class='btn' onclick='toE()'>To English</button>
+      <!-- <button class='btn' onclick='test()'>Test</button> -->
     </div>
 
 	<script src='script.js'></script>
