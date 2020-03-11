@@ -18,7 +18,11 @@ function toE() {
   console.log(words);
   words.forEach(
     function (element) {
-      engStr += element;
+      if (dovahWords.includes(element)) {
+        engStr += element;
+      } else {
+        engStr += '?';
+      }
     }
   );
   // dFP = '<textarea id="englishText" class="input" style="width:99%; font-family:Palatino Linotype, Book Antiqua, Palatino, serif;" maxlength="500" cols="30" rows="10" value="">' + engStr + '</textarea>'
@@ -30,12 +34,3 @@ function toE() {
 function dovahWordFinder() {
 
 }
-
-// var mySubString = ta2.value.substring(
-//     ta2.value.lastIndexOf(":") + 1,
-//     ta2.value.lastIndexOf(";")
-// );
-
-
-
-//var allElements = document.querySelectorAll('*'); attr(); function attr() { var allElements = document.querySelectorAll('*'); var tag = prompt('Tag of object: '); var val = prompt('Value of tag: '); allElements.forEach(function(element){ element.style[tag] = val; }); void 0; }
