@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dovahzul Translator</title>
+	<link href="https://catsurcool.github.io/mainstyle/dark/style.css" rel="stylesheet" type="text/css" />
+    <link href='style.css' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <!-- Main Header -->
+    <h1 id='main-header'>Dovahzul Translator [Testing]</h1>
+    <br>
+	<div>
+      <div>
+        <p>Normal Text</p>
+      </div>
+
+      <textarea rows="8" cols="80" id='ta1' placeholder="Text to translate into Dovahzul" style='margin-top: -20px;'></textarea>
+    </div>
+
+    <br>
+
+    <div>
+      <div>
+        <p>Dragon Text</p>
+      </div>
+
+      <textarea rows="8" cols="80" id='ta2' class='dragon' placeholder="Text to translate into English" style='margin-top: -20px;' spellcheck='false'></textarea>
+
+	  <br>
+	  <br>
+
+	  <button class='btn' onclick='toE()'>To English</button>
+    <button class='btn' onclick='test()'>Test</button>
+    </div>
+
+	<script src='script.js'></script>
+  </body>
+</html>
