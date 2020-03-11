@@ -18,6 +18,7 @@ function toE() {
   console.log(words);
   words.forEach(
     function (element) {
+      console.log(element);
       if (dovahWords.includes(element)) {
         engStr += element;
       } else {
