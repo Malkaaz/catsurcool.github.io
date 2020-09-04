@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Unitology';
+  src: url('/fonts/Unitology.ttf');
+}
+
+.unitology {
+  font-family: 'Unitology';
+}
+
+#ta2 {
+  font-family: 'Dragon';
+  font-size: 26px;
+}
+
+#smaller-text {
+  font-size: 16px;
+}
+
+#top-text, #bottom-text {
+  padding: 7px;
+  background-color: #252525;
+  border: 2px solid #ffffff;
+  border-bottom: none;
+  width: 5vw;
+  font-size: 16px;
+	line-height: 1;
+}
+
+#hide1, #hide2 {
+  display: none;
+}
