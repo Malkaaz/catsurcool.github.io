@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="/mainstyle/dark/style.css" rel="stylesheet" type="text/css" />
+
+    <script src='/csi.min.js'></script>
+
+    <!-- Embed(s) -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id='main-header'>Caesar Cipher</h1>
+    <br>
+
+    <div data-include='/nav-bar.html'></div>
+
+    <p>Created by <a href='https://youtube.com/Catsurcool' target='_blank'>Cats_ur_cool</a></p>
+    <br>
+
+    <input id='shift' type="text" name="" value=""><br><br>
+    <button id='button' class='btn' onclick='encrypt()' type="button" name="button">Set Shift</button>
+    <br>
+
+    <div>
+      <div>
+        <p>Normal Text</p>
+      </div>
+
+      <textarea rows="8" cols="80" id='ta1' placeholder="Normal text" style='margin-top: -20px;' spellcheck='false'></textarea>
+
+    </div>
+    <button class='btn' onclick='catchText()' type="button" name="button">Encode</button>
+    <div>
+      <div>
+        <p>Caesar Cipher</p>
+      </div>
+
+      <textarea rows="8" cols="80" id='ta2' placeholder="Jhlzhy jpwoly" style='margin-top: -20px;' spellcheck='false'></textarea>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
