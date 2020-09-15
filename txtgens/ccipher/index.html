@@ -21,8 +21,8 @@
     <p>Created by <a href='https://youtube.com/Catsurcool' target='_blank'>Cats_ur_cool</a></p>
     <br>
 
-    <input id='shift' type="text" name="" value=""><br><br>
-    <button id='button' class='btn' onclick='encrypt()' type="button" name="button">Set Shift</button>
+    <input id='shift' type='number' value=""><br><br>
+    <button id='button' class='btn' onclick='setshift()'>Set Shift</button>
     <br>
 
     <div>
@@ -33,7 +33,7 @@
       <textarea rows="8" cols="80" id='ta1' placeholder="Normal text" style='margin-top: -20px;' spellcheck='false'></textarea>
 
     </div>
-    <button class='btn' onclick='catchText()' type="button" name="button">Encode</button>
+    <button class='btn' onclick='encode()'>Encode</button>
     <div>
       <div>
         <p>Caesar Cipher</p>
@@ -41,6 +41,7 @@
 
       <textarea rows="8" cols="80" id='ta2' placeholder="Jhlzhy jpwoly" style='margin-top: -20px;' spellcheck='false'></textarea>
     </div>
+    <button class='btn' onclick='decode()' type="button" name="button">Decode</button>
     <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
