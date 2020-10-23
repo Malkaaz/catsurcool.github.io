@@ -13,6 +13,10 @@ var dovahWords = [
   'ree3'
 ]
 
+var enWords = [
+  
+]
+
 function toE() {
   var words = ta2.value.split(' ');
   console.log(words);
